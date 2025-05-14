@@ -1,0 +1,139 @@
+/**** Hero-Section Styles ****/
+section#home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding-top: 80px;
+    min-height: 600px;
+    /* background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center; */
+}
+/* section#home::before {
+    content: '';
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+} */
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+video.video-bg__content {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.home-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.home-text-wrapper {
+    max-width: 553px;
+}
+
+h1.hom-title {
+    font-size: 48px;
+}
+
+button.form-trigger-btn, button.form-trigger-btn-2 {
+    background-color: var(--pry-color);
+    color: white;
+    font-family: var(--font-smbold);
+    font-size: 16px;
+    padding: 14px 32px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+button.form-trigger-btn-2 {
+    background-color: transparent;
+    color: var(--pry-color);
+    border: 1px solid var(--pry-color);
+}
+
+.section-label {
+    font-size: 12px;
+    padding: 8px 12px;
+    width: fit-content;
+    background: rgba(195, 33, 30, 0.8);
+    color: white;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.home-text-wrapper .section-label {
+    margin: 0 0 16px;
+    text-transform: none;
+}
+ul.checkmark-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+ul.checkmark-list li {
+    font-size: 12px;
+    font-family: var(--font-smbold);
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 12px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    section#home {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .home-content-wrapper {
+        grid-template-columns: 100%;
+        margin: 40px 0 0;
+        gap: 40px;
+    }
+
+    h1.hom-title {
+        font-size: 40px;
+    }
+    button.form-trigger-btn, button.form-trigger-btn-2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-text-wrapper {
+        max-width: 100%;
+    }
+
+    section#home .home-img-wrapper {
+        display: block;
+    }
+    .button-group {
+        flex-direction: column;
+    }
+    ul.checkmark-list {
+        grid-template-columns: 100%
+    }
+}
+
+/**** end of Hero-Section Styles ****/
