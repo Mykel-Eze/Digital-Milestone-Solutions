@@ -1,0 +1,54 @@
+section#cta {
+    position: relative;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.cta-block {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 16px;
+    background: var(--pry-color);
+    color: white;
+    margin: auto;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cta-block h2 {
+    font-size: 48px;
+    line-height: normal;
+    font-weight: 700;
+    font-family: var(--font);
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+.cta-block p {
+    font-family: var(--font-light);
+    font-size: 18px;
+    margin: 0 auto 32px;
+    max-width: 641px;
+}
+
+img.bg-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    opacity: 0.5;
+}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {
+    .cta-block h2 {
+        font-size: 32px;
+    }
+
+    .cta-block p {
+        font-size: 16px;
+    }
+}

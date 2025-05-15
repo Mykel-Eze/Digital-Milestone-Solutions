@@ -29,14 +29,7 @@
                             <li>Tailored Business Consulting & Training</li>
                         </ul>
 
-                        <div class="button-group flex-div gap-[10px] mt-[36px]">
-                            <button class="form-trigger-btn-2 hover-scale">
-                                Browse Our Services
-                            </button>
-                            <button class="form-trigger-btn hover-scale">
-                                Book a Free Discovery Call
-                            </button>
-                        </div>
+                        <ButtonGroup />
                     </div>
                 </div>
             </div>

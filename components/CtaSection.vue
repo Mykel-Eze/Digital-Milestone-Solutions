@@ -1,25 +1,17 @@
 <!-- components/CtaSection.vue -->
 <template>
-    <section class="cta-section">
+    <section id="cta"> 
         <div class="container">
-            <div class="row">
-                <div class="col s12 m8 offset-m2 center-align">
+            <div class="cta-block" data-aos="fade-up">
+                <img src="~/assets/images/cta-widget-bg-pattern.png" alt="bg-pattern" class="bg-pattern" />
+                <div class="rel center-cta">
                     <h2>Ready to Level Up Your Business?</h2>
                     <p class="flow-text">
                         Whether it's smarter systems or standout content, we help you build a business that runs
                         smoothly and shows up powerfully.
                     </p>
-                    <div class="cta-buttons">
-                        <a href="/contact" class="btn-large waves-effect waves-light white blue-text text-darken-2">
-                            Book a Free Discovery Call
-                        </a>
-                        <a href="/services" class="btn-large waves-effect waves-light deep-orange accent-2">
-                            Explore Services
-                        </a>
-                        <a href="/academy" class="btn-large waves-effect waves-light white blue-text text-darken-2">
-                            Visit Digital Milestone Academy
-                        </a>
-                    </div>
+
+                    <ButtonGroup />
                 </div>
             </div>
         </div>
@@ -32,12 +24,19 @@ export default {
 }
 </script>
 
-<style scoped>
-.cta-buttons {
-    margin-top: 30px;
-}
+<style scoped src="~/assets/css/cta-widget.css"></style>
 
-.cta-buttons .btn-large {
-    margin: 10px;
+<style>
+.cta-block .button-group {
+    justify-content: center;
+}
+.cta-block .button-group .form-trigger-btn-2 {
+    border-color: #fff;
+    color: #fff;
+}
+.cta-block .button-group .form-trigger-btn {
+    background-color: #fff;
+    color: var(--pry-color);
+    border-color: #fff;
 }
 </style>
