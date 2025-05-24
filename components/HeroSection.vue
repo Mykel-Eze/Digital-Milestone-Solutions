@@ -18,7 +18,7 @@
                         </div>
                         <h1 class="hom-title mag-0">Digital tools and creative strategies for small businesses ready to
                             scale.</h1>
-                        <p class="text-[16px] mt-[12px] mb-[24px]">
+                        <p class="text-[16px] mt-[12px] mb-[24px] text-[#83869D]">
                             We help small business owners streamline operations, elevate their content, and unlock
                             growth — without the overwhelm.
                         </p>
