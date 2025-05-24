@@ -14,7 +14,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [
-        { rel: 'icon', type: 'image/png', href: '/dms.png' }
+        { rel: 'icon', type: 'image/png', href: '/DMS-icon.jpg' }
       ],
       title: 'Digital Milestone Solutions',
       // titleTemplate: '%s - Digital Milestone Solutions',
@@ -36,7 +36,7 @@ export default defineNuxtConfig({
           name: 'Keywords',
           content: 'digital milestone solutions, digital tools, creative strategies, small business, scale',
         },
-        { name: 'theme-color', content: '#c3211e' },
+        { name: 'theme-color', content: '#fec007' },
       ],
     },
   },

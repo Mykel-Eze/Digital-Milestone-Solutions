@@ -5,7 +5,7 @@
             <div class="container full-height">
                 <div class="nav-wrapper">
                     <nuxt-link to="/" class="brand-logo" @click="scrollToTop()">
-                        <img src="~/assets/images/dms-logo.png" alt="DMS" class="logo">
+                        <img src="~/assets/images/DMS-logo-yellow.png" alt="DMS" class="logo">
                     </nuxt-link>
 
                     <ul id="nav-mobile-2" class="dn-mobile ul-nav">
@@ -53,7 +53,7 @@
         <ul id="slide-out" class="sidenav">
             <div class="sidenav-logo">
                 <nuxt-link to="/" class="sidenav-close" @click="scrollToTop()">
-                    <img src="~/assets/images/dms-logo.png" alt="DMS" class="logo">
+                    <img src="~/assets/images/DMS-logo-yellow.png" alt="DMS" class="logo">
                 </nuxt-link>
             </div>
             <ul class="sidenav-flex">

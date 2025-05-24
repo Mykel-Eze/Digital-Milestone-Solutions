@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-    --pry-color: #c3211e;
-    --sec-color: #FFAF1C;
+    --pry-color: #fec007;
+    --sec-color: #303030;
     --font: 'Manrope', sans-serif;
     --font-bold: 'Manrope-Bold', sans-serif;
     --font-smbold: 'Manrope-smBold', sans-serif;
@@ -28,12 +28,12 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(195, 33, 30, 0.9);
+    background: rgba(254, 192, 7, 0.9);
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(195, 33, 30, 0.4);
+    background: rgba(254, 192, 7, 0.4);
 }
 
 .__nuxt-error-page {
@@ -47,8 +47,8 @@ body {
     font-family: var(--font);
     height: auto;
     min-height: 100vh;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     width: 100%;
     overflow-x: hidden;
     overscroll-behavior: contain;

@@ -21,7 +21,7 @@ section#home {
     height: 100%;
     opacity: 0.3;
 } */
-.video-bg {
+/* .video-bg {
     position: absolute;
     top: 0;
     left: 0;
@@ -37,7 +37,7 @@ video.video-bg__content {
     top: 0;
     left: 0;
     z-index: -1;
-}
+} */
 
 .home-content-wrapper {
     display: grid;
@@ -55,7 +55,7 @@ h1.hom-title {
 
 button.form-trigger-btn, button.form-trigger-btn-2 {
     background-color: var(--pry-color);
-    color: white;
+    color: black;
     font-family: var(--font-smbold);
     font-size: 16px;
     padding: 14px 32px;
@@ -73,7 +73,7 @@ button.form-trigger-btn-2 {
     font-size: 12px;
     padding: 8px 12px;
     width: fit-content;
-    background: rgba(195, 33, 30, 0.8);
+    background: rgba(254, 192, 7, 0.8);
     color: white;
     border-radius: 6px;
     margin-bottom: 16px;
@@ -93,7 +93,7 @@ ul.checkmark-list {
 ul.checkmark-list li {
     font-size: 12px;
     font-family: var(--font-smbold);
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     padding: 10px 20px;
     border-radius: 12px;
     line-height: 1.5;
@@ -137,3 +137,70 @@ ul.checkmark-list li {
 }
 
 /**** end of Hero-Section Styles ****/
+
+
+/**** Testimonial-Section Styles ****/
+section#testimonials {
+    position: relative;
+    padding: 50px 0;
+}
+section#testimonials::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    /* background: url(../images/wave-2.svg); */
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.testimony-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.testimonials-wrapper {
+    /* margin: 30px auto 15px;
+    width: 90%; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 50px auto;
+}
+.testimony-block img {
+    width: 80px;
+    border-radius: 50%;
+}
+.testimony-block blockquote {
+    border-left: 5px solid white;
+    font-size: 20px;
+    /* border-left: none; */
+    /* padding: 15px; */
+    margin-left: 30px;
+}
+.testimony-block blockquote div.testifier {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 15px;
+}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 600px) {
+    .testimonials-wrapper {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .testimony-block {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .testimony-block blockquote {
+        margin: auto;
+    }
+}
+/**** end of Testimonial-Section Styles ****/

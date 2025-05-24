@@ -4,16 +4,16 @@
         <div class="container">
           <div class="footer-text-wrapper max-w-[898px] mt-[60px] mb-[15px] mx-auto text-center">
             <div class="footer-logo flex justify-center mt-[50px] mb-[30px]">
-              <img src="~/assets/images/dms-logo.png" alt="DMS" class="w-[150px] md:w-[200px]">
+              <img src="~/assets/images/DMS-logo-yellow.png" alt="DMS" class="w-[150px] md:w-[200px]">
             </div>
 
-            <div class="footer-tnc-wrapper my-[30px]">
+            <div class="footer-tnc-wrapper my-[30px] text-[14px]">
                 <a href="#privacy-policy">Privacy Policy</a>
                 <span>|</span>
                 <a href="#terms-and-conditions">Terms of Service</a>
             </div>
 
-            <div class="contacts-wrapper flex-div gap-[40px] justify-center my-[30px]">
+            <div class="contacts-wrapper flex-div gap-[40px] justify-center my-[30px] text-[16px] md:text-[18px]">
                 <div class="contact-item flex-div gap-[5px]">
                     <img src="~/assets/images/phone.svg" alt="phone">
                     <div>
@@ -43,7 +43,7 @@
               </a>
             </div>
 
-            <div class="footer-copyright-div text-[#212337] text-[16px] md:text-[18px]">
+            <div class="footer-copyright-div text-[#ffffffa3] text-[14px]">
               © {{ new Date().getFullYear() }} Digital Milestone Solutions. All rights reserved
             </div>
           </div>

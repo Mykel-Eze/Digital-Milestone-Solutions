@@ -13,7 +13,7 @@ nav.main-nav {
 nav.main-nav.scrolled-nav {
     position: fixed;
     top: 0;
-    background-color: white;
+    background-color: black;
 }
 
 nav ul a:hover {
@@ -33,7 +33,7 @@ ul#nav-mobile ul:not(.dropdown-content)>li {
 }
 
 nav.main-nav ul>li>a {
-    color: #010101;
+    color: #ffffff;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -48,7 +48,7 @@ a.nuxt-link-active {
 
 nav.main-nav.scrolled-nav ul>li>a,
 nav.main-nav.nav-2 ul>li>a {
-    color: #1A242D;
+    color: #ffffff;
 }
 
 nav.main-nav.scrolled-nav ul>li>a:hover,
@@ -210,12 +210,12 @@ ul#slide-out li a.sidenav-close button {
 #nav-wrapper ul > li > .get-started-btn.btn {
     border-radius: 100px;
     background-color: var(--pry-color);
-    color: whitesmoke;
+    color: black;
     height: 42px;
     width: auto;
     line-height: 42px;
     font-family: var(--font-smbold);
-    font-size: 14px;
+    font-size: 13px;
     margin: 0;
     position: relative;
     top: -2px;

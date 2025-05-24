@@ -31,12 +31,12 @@ export default {
     justify-content: center;
 }
 .cta-block .button-group .form-trigger-btn-2 {
-    border-color: #fff;
-    color: #fff;
+    border-color: black;
+    color: black;
 }
 .cta-block .button-group .form-trigger-btn {
-    background-color: #fff;
-    color: var(--pry-color);
-    border-color: #fff;
+    background-color: black;
+    color: white;
+    border-color: black;
 }
 </style>

@@ -1,11 +1,11 @@
 <template>
     <section id="home" class="scrollspy">
-        <div class="video-bg">
+        <!-- <div class="video-bg">
             <video autoplay muted loop class="video-bg__content">
                 <source src="~/assets/video-bg.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-        </div>
+        </div> -->
         <div class="row relative full-height">
             <div class="container full-height flex items-center">
                 <div class="home-content-wrapper">
