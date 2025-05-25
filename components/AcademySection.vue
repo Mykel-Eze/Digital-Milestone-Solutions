@@ -1,91 +1,61 @@
 <!-- components/AcademySection.vue -->
 <template>
-    <section class="section academy-section blue lighten-5">
-        <div class="container">
-            <h2 class="section-title center-align">Digital Milestone Academy</h2>
-            <h3 class="center-align">Train. Upskill. Empower.</h3>
-
-            <div class="row">
-                <div class="col s12 m8 offset-m2">
-                    <p class="flow-text center-align">
-                        Our sub-brand, Digital Milestone Academy, offers hands-on, practical training for individuals
-                        and teams looking to level up their digital skills.
-                    </p>
+    <section id="academy" class="section scrollspy">
+        <div class="row">
+            <div class="container">
+                <div class="section-header center mb-[60px]">
+                    <h2 class="section-title mag-0">Digital Milestone Academy</h2>
+                    <p class="section-desc text-[#83869D]">Train. Upskill. Empower.</p>
                 </div>
-            </div>
+                <p class="more-section-desc flow-text">
+                    Our sub-brand, Digital Milestone Academy, offers hands-on, practical training for 
+                    individuals and teams looking to level up their digital skills.
+                </p>
+                <p class="more-section-desc flow-text mt-5">Signature Programs Include:</p>
+                <ul class="academy-item-wrapper">
+                    <li class="academy-item flex-div">
+                        <img src="~/assets/images/technical-support.png" alt="academy-icon" class="acdemy-item-icon">
+                        <div class="academy-item-txts">
+                            <div class="academy-item-title">Virtual Assistant Essentials</div>
+                            <div class="academy-item-desc">30-Day Sprint to master essential VA skills</div>
+                        </div>
+                    </li>
+                    <li class="academy-item flex-div">
+                        <img src="~/assets/images/social-media-marketing.png" alt="academy-icon" class="acdemy-item-icon">
+                        <div class="academy-item-txts">
+                            <div class="academy-item-title">Social Media Design Fundamentals</div>
+                            <div class="academy-item-desc">Create eye-catching social media graphics</div>
+                        </div>
+                    </li>
+                    <li class="academy-item flex-div">
+                        <img src="~/assets/images/video-editing.png" alt="academy-icon" class="acdemy-item-icon">
+                        <div class="academy-item-txts">
+                            <div class="academy-item-title">Smartphone Video Editing Masterclass</div>
+                            <div class="academy-item-desc">Professional videos using just your phone</div>
+                        </div>
+                    </li>
+                    <li class="academy-item flex-div">
+                        <img src="~/assets/images/motion.png" alt="academy-icon" class="acdemy-item-icon">
+                        <div class="academy-item-txts">
+                            <div class="academy-item-title">Motion Graphics for Business</div>
+                            <div class="academy-item-desc">Advanced techniques for engaging content</div>
+                        </div>
+                    </li>
+                </ul>
 
-            <div class="row">
-                <div class="col s12">
-                    <h4 class="center-align">Signature Programs Include:</h4>
+                <div class="flow-text center">
+                    Perfect for early-career professionals, remote teams & business owners who want to DIY
+                    smartly.
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col s12 m3">
-                    <div class="card small">
-                        <div class="card-content">
-                            <span class="card-title">Virtual Assistant Essentials</span>
-                            <p>30-Day Sprint to master essential VA skills</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="/academy" class="blue-text text-darken-2">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 m3">
-                    <div class="card small">
-                        <div class="card-content">
-                            <span class="card-title">Social Media Design Fundamentals</span>
-                            <p>Create eye-catching social media graphics</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="/academy" class="blue-text text-darken-2">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 m3">
-                    <div class="card small">
-                        <div class="card-content">
-                            <span class="card-title">Smartphone Video Editing Masterclass</span>
-                            <p>Professional videos using just your phone</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="/academy" class="blue-text text-darken-2">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 m3">
-                    <div class="card small">
-                        <div class="card-content">
-                            <span class="card-title">Motion Graphics for Business</span>
-                            <p>Advanced techniques for engaging content</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="/academy" class="blue-text text-darken-2">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col s12 center-align">
-                    <p class="flow-text">
-                        🎓 Perfect for early-career professionals, remote teams & business owners who want to DIY
-                        smartly.
-                    </p>
-                    <a href="/academy" class="btn btn-large waves-effect waves-light blue darken-1">Browse Academy
-                        Programs</a>
+                <div class="mt-[40px] flex justify-center">
+                    <nuxt-link to="/academy" class="form-trigger-btn hover-scale">
+                        Browse Academy Programs
+                    </nuxt-link>
                 </div>
             </div>
         </div>
     </section>
 </template>
 
-<script>
-export default {
-    name: 'AcademySection'
-}
+<script lang="ts" setup>
 </script>

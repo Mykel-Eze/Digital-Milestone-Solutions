@@ -53,7 +53,7 @@ h1.hom-title {
     font-size: 48px;
 }
 
-button.form-trigger-btn, button.form-trigger-btn-2 {
+.form-trigger-btn, .form-trigger-btn-2 {
     background-color: var(--pry-color);
     color: black;
     font-family: var(--font-smbold);
@@ -63,7 +63,7 @@ button.form-trigger-btn, button.form-trigger-btn-2 {
     border: none;
     cursor: pointer;
 }
-button.form-trigger-btn-2 {
+.form-trigger-btn-2 {
     background-color: transparent;
     color: var(--pry-color);
     border: 1px solid var(--pry-color);
@@ -118,7 +118,7 @@ ul.checkmark-list li {
     h1.hom-title {
         font-size: 40px;
     }
-    button.form-trigger-btn, button.form-trigger-btn-2 {
+    .form-trigger-btn, .form-trigger-btn-2 {
         width: 100%;
     }
 }
@@ -248,11 +248,15 @@ section#services {
     gap: 50px;
 }
 .service-block {
-    box-shadow: 0 4px 24px rgba(255, 255, 255, 0.18);
     padding: 22px 24px 92px;
-    border-radius: 6px;
-    background: #303030;
     position: relative;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.04) 100%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 .service-block-img {
     width: 80px;
@@ -301,6 +305,58 @@ ul.services-list li {
 }
 /**** end of Services-Section Styles ****/
 
+/**** Academy-Section Styles ****/
+section#academy {
+    position: relative;
+    padding: 80px 0 50px;
+}
+.academy-item-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 50px auto;
+}
+.academy-item {
+    background: linear-gradient(135deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.04) 100%);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,0.18);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    gap: 10px;
+    padding: 12px 24px;
+}
+img.acdemy-item-icon {
+    width: 50px;
+}
+.academy-item-title {
+    font-size: 18px;   
+    font-family: var(--font-bold);
+    color: #83869D;
+    margin: 0 0 6px;
+    line-height: 18px;
+}
+.academy-item-desc {
+    font-size: 14px;
+}
+
+@media (max-width: 992px) {
+    .academy-item-wrapper {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .academy-item-wrapper {
+        grid-template-columns: 100%;
+    }
+}
+/**** end of Academy-Section Styles ****/
 
 /**** Testimonial-Section Styles ****/
 section#testimonials {

@@ -1,6 +1,6 @@
 <!-- components/TestimonialsSection.vue -->
 <template>
-    <section id="testimonials">
+    <section id="testimonials" class="section scrollspy">
         <div class="row">
             <div class="container rel">
                 <h2 class="section-title center">Client Wins</h2>
