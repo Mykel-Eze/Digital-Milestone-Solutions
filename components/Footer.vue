@@ -1,6 +1,6 @@
 <template>
     <footer>
-      <div class="row">
+      <div class="row rel">
         <div class="container">
           <div class="footer-text-wrapper max-w-[898px] mt-[60px] mb-[15px] mx-auto text-center">
             <div class="footer-logo flex justify-center mt-[50px] mb-[30px]">

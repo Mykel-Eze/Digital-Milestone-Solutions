@@ -37,7 +37,7 @@ export default defineNuxtConfig({
           content: 'digital milestone solutions, digital tools, creative strategies, small business, scale',
         },
         { name: 'theme-color', content: '#fec007' },
-      ],
+      ]
     },
   },
   css: [
