@@ -280,8 +280,8 @@ ul#slide-out {
 
     .sidenav-logo {
         margin: 20px 0 40px;
-        text-align: left;
-        padding-left: 25px;
+        text-align: center;
+        /* padding-left: 25px; */
     }
 
     ul#nav-mobile-2 a.sidenav-trigger {
@@ -335,6 +335,7 @@ ul#slide-out {
 
     img.logo {
         width: 70%;
+        margin: auto;
     }
 
     ul#about-us-dropdown-2 {

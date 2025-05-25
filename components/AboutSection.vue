@@ -41,7 +41,7 @@
                     </div>
 
                     <div class="about-content-wrapper acw-2">
-                        <div class="about-img-side">
+                        <div class="about-img-side hidden-xs">
                             <img src="~/assets/images/vector-img-2.png" alt="vector">
                         </div>
                         <div class="about-text-side">
