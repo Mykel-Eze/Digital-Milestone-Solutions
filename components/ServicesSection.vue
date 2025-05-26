@@ -22,9 +22,9 @@
                         </ul>
 
                         <div class="service-btn-wrapper">
-                            <button class="form-trigger-btn hover-scale">
+                            <a href="https://calendly.com/digitalmilestone247/30min" target="_blank" rel="noopener noreferrer" class="form-trigger-btn hover-scale">
                                 Book a Creative Briefing Call
-                            </button>
+                            </a>
                         </div>
                     </div>
 
@@ -42,9 +42,9 @@
                         </ul>
 
                         <div class="service-btn-wrapper">
-                            <button class="form-trigger-btn hover-scale">
+                            <a href="https://calendly.com/digitalmilestone247/30min" target="_blank" rel="noopener noreferrer" class="form-trigger-btn hover-scale">
                                 Book a Strategy Session
-                            </button>
+                            </a>
                         </div>
                     </div>
 
@@ -62,9 +62,9 @@
                         </ul>
 
                         <div class="service-btn-wrapper">
-                            <button class="form-trigger-btn hover-scale">
+                            <a href="https://calendly.com/digitalmilestone247/30min" target="_blank" rel="noopener noreferrer" class="form-trigger-btn hover-scale">
                                 Book a Systems Call
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>

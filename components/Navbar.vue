@@ -41,9 +41,9 @@
 
                     <ul class="right hide-on-med-and-down">
                         <li>
-                            <button class="get-started-btn btn hover-scale">
+                            <a href="https://calendly.com/digitalmilestone247/30min" target="_blank" rel="noopener noreferrer" class="get-started-btn btn hover-scale">
                                 Book a Free Discovery Call
-                            </button>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -78,9 +78,9 @@
                     </a>
                 </li>
                 <li class="nav-btn-wrappr">
-                    <button class="get-started-btn btn sidenav-close">
+                    <a href="https://calendly.com/digitalmilestone247/30min" target="_blank" rel="noopener noreferrer" class="get-started-btn btn sidenav-close">
                         Book a Free Discovery Call
-                    </button>
+                    </a>
                 </li>
             </ul>
         </ul>

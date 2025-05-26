@@ -66,6 +66,8 @@ h1.hom-title {
     border-radius: 100px;
     border: none;
     cursor: pointer;
+    display: inline-block;
+    text-align: center;
 }
 .form-trigger-btn-2 {
     background-color: transparent;

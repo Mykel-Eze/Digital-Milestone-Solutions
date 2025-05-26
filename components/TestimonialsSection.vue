@@ -32,9 +32,9 @@
                 </div>
 
                 <div class="mt-[80px] flex justify-center">
-                    <button class="form-trigger-btn hover-scale">
+                    <a href="https://calendly.com/digitalmilestone247/30min" target="_blank" rel="noopener noreferrer" class="form-trigger-btn hover-scale">
                         Book a 30-Minute Consultation
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
