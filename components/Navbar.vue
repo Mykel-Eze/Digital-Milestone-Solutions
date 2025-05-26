@@ -18,24 +18,24 @@
 
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li>
-                            <a href="#about">
+                            <nuxt-link to="/#about">
                                 <span>About</span>
-                            </a>
+                            </nuxt-link>
                         </li>
                         <li>
-                            <a href="#services">
+                            <nuxt-link to="/#services">
                                 <span>Services</span>
-                            </a>
+                            </nuxt-link>
                         </li>
                         <li>
-                            <a href="#academy">
+                            <nuxt-link to="/#academy">
                                 <span>Academy</span>
-                            </a>
+                            </nuxt-link>
                         </li>
                         <li>
-                            <a href="#testimonials">
+                            <nuxt-link to="/#testimonials">
                                 <span>Testimonials</span>
-                            </a>
+                            </nuxt-link>
                         </li>
                     </ul>
 
@@ -58,24 +58,24 @@
             </div>
             <ul class="sidenav-flex">
                 <li>
-                    <a href="#about" class="sidenav-close">
+                    <nuxt-link to="/#about" class="sidenav-close">
                         <span>About</span>
-                    </a>
+                    </nuxt-link>
                 </li>
                 <li>
-                    <a href="#services" class="sidenav-close">
+                    <nuxt-link to="/#services" class="sidenav-close">
                         <span>Services</span>
-                    </a>
+                    </nuxt-link>
                 </li>
                 <li>
-                    <a href="#academy" class="sidenav-close">
+                    <nuxt-link to="/#academy" class="sidenav-close">
                         <span>Academy</span>
-                    </a>
+                    </nuxt-link>
                 </li>
                 <li>
-                    <a href="#testimonials" class="sidenav-close">
+                    <nuxt-link to="/#testimonials" class="sidenav-close">
                         <span>Testimonials</span>
-                    </a>
+                    </nuxt-link>
                 </li>
                 <li class="nav-btn-wrappr">
                     <a href="https://calendly.com/digitalmilestone247/30min" target="_blank" rel="noopener noreferrer" class="get-started-btn btn sidenav-close">
