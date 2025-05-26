@@ -20,7 +20,7 @@ section#home::before {
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .row {
     position: relative;

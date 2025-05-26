@@ -8,19 +8,21 @@
             </div>
 
             <div class="footer-tnc-wrapper my-[30px] text-[14px]">
-                <a href="#privacy-policy">Privacy Policy</a>
+                <a href="/privacy-policy">Privacy Policy</a>
                 <span>|</span>
-                <a href="#terms-and-conditions">Terms of Service</a>
+                <a href="/terms-of-service">Terms of Service</a>
             </div>
 
             <div class="contacts-wrapper flex-div gap-[40px] justify-center my-[30px] text-[16px] md:text-[18px]">
-                <div class="contact-item flex-div gap-[5px]">
-                    <img src="~/assets/images/phone.svg" alt="phone">
-                    <div>
-                        <a href="tel:+2349164968940" class="text-[20px] md:text-[22px]">+234 916 496 8940</a>, 
-                        <a href="tel:+2349055723818" class="text-[20px] md:text-[22px]">+234 905 572 3818</a>
+                <div class="contact-item-wrapper flex-div gap-[5px]">
+                    <div class="contact-item flex-div gap-[5px]">
+                      <img src="~/assets/images/phone.svg" alt="phone">
+                      <div>
+                          <a href="tel:+2349164968940" class="text-[20px] md:text-[22px]">+234 916 496 8940</a>, 
+                          <a href="tel:+2349055723818" class="text-[20px] md:text-[22px]">+234 905 572 3818</a>
+                      </div>
                     </div>
-                    <span>|</span>
+                    <span class="hidden-xs">|</span>
                     <div class="contact-item flex-div gap-[5px]">
                         <img src="~/assets/images/mail.svg" alt="mail">
                         <a href="mailto:digitalmilestone247@gmail.com">digitalmilestone247@gmail.com</a>
