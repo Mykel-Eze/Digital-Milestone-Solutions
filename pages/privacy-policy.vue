@@ -84,7 +84,8 @@
                 <li>Unsubscribe from our emails at any time</li>
               </ul>
               <p>
-                To exercise these rights, email us at <a href="mailto:" class="pry-color bold-txt">privacy@digitalmilestonesolutions.com</a>
+                To exercise these rights, email us at 
+                <a href="mailto:hello@digitalmilestonesolutions.com" class="pry-color bold-txt">hello@digitalmilestonesolutions.com</a>
               </p>
             </div>
 
@@ -106,7 +107,8 @@
             <div class="policy-item">
               <h2 class="policy-title">9. Contact Us</h2>
               <p>
-                For questions or concerns about your privacy, please contact: <a href="mailto:" class="pry-color bold-txt">privacy@digitalmilestonesolutions.com</a>
+                For questions or concerns about your privacy, please contact: 
+                <a href="mailto:hello@digitalmilestonesolutions.com" class="pry-color bold-txt">hello@digitalmilestonesolutions.com</a>
               </p>
             </div>
           </div>

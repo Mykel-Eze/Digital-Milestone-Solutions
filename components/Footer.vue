@@ -8,9 +8,9 @@
             </div>
 
             <div class="footer-tnc-wrapper my-[30px] text-[14px]">
-                <a href="/privacy-policy">Privacy Policy</a>
+                <nuxt-link to="/privacy-policy">Privacy Policy</nuxt-link>
                 <span>|</span>
-                <a href="/terms-of-service">Terms of Service</a>
+                <nuxt-link to="/terms">Terms of Service</nuxt-link>
             </div>
 
             <div class="contacts-wrapper flex-div gap-[40px] justify-center my-[30px] text-[16px] md:text-[18px]">
@@ -25,22 +25,24 @@
                     <span class="hidden-xs">|</span>
                     <div class="contact-item flex-div gap-[5px]">
                         <img src="~/assets/images/mail.svg" alt="mail">
-                        <a href="mailto:digitalmilestone247@gmail.com">digitalmilestone247@gmail.com</a>
+                        <a href="mailto:digitalmilestone247@gmail.com" target="_blank" rel="noopener noreferrer">
+                          digitalmilestone247@gmail.com
+                        </a>
                     </div>
                 </div>
             </div>
   
             <div class="social-wrapper flex gap-8 justify-center my-[30px]">
-              <a href="https://linkedin.com" class="social-item">
+              <a href="https://linkedin.com" class="social-item" target="_blank" rel="noopener noreferrer">
                 <img src="~/assets/images/linkedin.svg" alt="linkedin">
               </a>
-              <a href="https://instagram.com" class="social-item">
+              <a href="https://instagram.com" class="social-item" target="_blank" rel="noopener noreferrer">
                 <img src="~/assets/images/instagram.svg" alt="instagram">
               </a>
-              <a href="https://x.com" class="social-item">
+              <a href="https://x.com" class="social-item" target="_blank" rel="noopener noreferrer">
                 <img src="~/assets/images/x.svg" alt="x">
               </a>
-              <a href="https://facebook.com" class="social-item">
+              <a href="https://facebook.com" class="social-item" target="_blank" rel="noopener noreferrer">
                 <img src="~/assets/images/facebook.svg" alt="facebook">
               </a>
             </div>
